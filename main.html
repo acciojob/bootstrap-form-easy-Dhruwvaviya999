@@ -13,26 +13,26 @@
 		<h1 class="text-center">Internship Form</h1>
 		<div class="d-flex justify-content-between w-60">
 			<div class="m-1">
-				<label for="first-name-input">First Name</label>
-				<input style="width:350px;" id="first-name-input" type="text" name="fName" required />
+				<label class="form-label" for="first-name-input">First Name</label>
+				<input style="width:350px;" class="form-control invalid-feedback" id="first-name-input" type="text" name="fName" required />
 			</div>
 			<div class="m-1">
-				<label for="last-name-input">Last Name</label>
+				<label class="form-label" for="last-name-input">Last Name</label>
 				<input style="width:350px;" id="last-name-input" type="text" name="lName" required />
 			</div>
 			<div class="m-1">
-				<label style="margin-right:190px" for="email-input">Email Address</label>
+				<label class="form-label" style="margin-right:190px" for="email-input">Email Address</label>
 				<input style="width:350px;" id="email-input" type="email" name="email" placeholder="abc@xyz.com" required />
 			</div>
 		</div>
 		<div class="d-flex w-55">
 			<div>
-				<label for="college-input">College</label>
+				<label class="form-label" for="college-input">College</label>
 				<input style="width:500px; margin-right:40px" type="text" id="college-input" name="college" required />
 			</div>
 			<div>
-				<label for="graduation-year">Graduaton Year</label>
-				<select style="margin-right:20px;" required >
+				<label class="form-label" for="grad-year-select">Graduaton Year</label>
+				<select id=grad-year-select style="margin-right:20px;" required >
 					<option>Choose...</option>
 					<option>2020</option>
 					<option>2021</option>
@@ -41,7 +41,7 @@
 				</select>
 			</div>
 			<div>
-				<label for="roll-no-input">Roll No.</label>
+				<label class="form-label" for="roll-no-input">Roll No.</label>
 				<input id="roll-no-input" name="rollNo" type="text" required />
 			</div>
 		</div>
